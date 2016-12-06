@@ -6,3 +6,6 @@ nav {}
 main {}
 section {}
 footer {}
+ul, li * {
+  list-style-type: none;
+}
