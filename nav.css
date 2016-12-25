@@ -57,6 +57,7 @@ header {
 .nav-cell {
 	display: inline-block;
 	float: left;
+	margin-right: 2vw;
 	padding-right: 2vw;
 }
 /*link style*/
@@ -72,6 +73,7 @@ header {
 a:hover {
 	text-decoration: none;
 }
+
 #hamburger-nav {
 	/*background: url();*/
 	display: hidden;

@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+}
+
+.wallpaper {
+	background-image: url(img/png/path4.png);
+	background-repeat: repeat-x repeat-y;
+	width: 100vw;
+	height: 100vh;
+}
