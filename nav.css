@@ -38,8 +38,11 @@ h1 {
 }
 /*nav style*/
 .top-nav {
-	float: right;
-	padding: 5vh;
+	margin-top: 15vh;
+	margin-left: 15vw;
+	padding: 2vh;
+
+	
 }
 .nav-list {
 	list-style: none;
@@ -47,7 +50,7 @@ h1 {
 .nav-cell {
 	display: inline-block;
 	float: left;
-	padding: 10px;
+	padding-right: 2vw;
 }
 /*link style*/
 a {
