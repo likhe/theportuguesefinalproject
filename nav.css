@@ -21,7 +21,8 @@ header {
 .name_logo {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 50vw;
+	margin-left: -20vw;
 }
 #logo {
 	margin: 1vw;
