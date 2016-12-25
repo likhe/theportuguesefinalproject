@@ -1,7 +1,13 @@
-/*font policy for nav*/
 @font-face {
+	/*font policy for nav*/
     font-family: "Kranky";
     src: url(policies/Kranky.ttf);
+}
+@font-face {
+	/*font policy for logo*/
+	font-family: "Tweedy";
+    src: url(policies/Tweedy_ver02_11_2010_thunderpanda.ttf);
+	src: url(policies/Tweedy_ver02_22_2010_thunderpanda.ttf);
 }
 /*body no margin*/
 body {
@@ -27,22 +33,24 @@ header {
 #logo {
 	margin: 1vw;
 	margin-top: 0;
-	float: left;
-	width: 25vw;
-	height: 25vh;
+	width: 30vw;
+	height: 30vh;
 }
 /*logo size policy*/
-h1 {
-	font-size: 35px;
-	letter-spacing: 1vw;
+#logo, h1 {
+	color: white;
+	font-family: "Tweedy";
+	margin-top: 2vh;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	text-decoration: none;
 }
 /*nav style*/
 .top-nav {
 	margin-top: 15vh;
 	margin-left: 15vw;
 	padding: 2vh;
-
-	
 }
 .nav-list {
 	list-style: none;
@@ -53,14 +61,15 @@ h1 {
 	padding-right: 2vw;
 }
 /*link style*/
-a {
+.inner-cell {
 	color: white;
+	font-family: "Kranky";
+	text-transform: capitalize;
 	text-decoration: none; 
 	font-weight: bold;
 	white-space: nowrap;
-	font-family: "Kranky";
-	text-transform: capitalize;
 }
+
 a:hover {
 	text-decoration: none;
 }
