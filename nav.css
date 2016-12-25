@@ -1,7 +1,7 @@
-/*font policy for logo*/
+/*font policy for nav*/
 @font-face {
-    font-family: "LetrasLocas2";
-    src: url(policies/LetrasLocas2.ttf);
+    font-family: "Kranky";
+    src: url(policies/Kranky.ttf);
 }
 /*body no margin*/
 body {
@@ -34,10 +34,6 @@ header {
 h1 {
 	font-size: 35px;
 	letter-spacing: 1vw;
-	white-space: nowrap;
-	font-weight: light;
-	font-family: "LetrasLocas2";
-	text-transform: capitalize;
 }
 /*nav style*/
 .top-nav {
@@ -57,6 +53,9 @@ a {
 	color: white;
 	text-decoration: none; 
 	font-weight: bold;
+	white-space: nowrap;
+	font-family: "Kranky";
+	text-transform: capitalize;
 }
 a:hover {
 	text-decoration: none;
