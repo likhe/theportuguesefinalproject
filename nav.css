@@ -5,9 +5,8 @@
 }
 @font-face {
 	/*font policy for logo*/
-	font-family: "Tweedy";
-    src: url(policies/Tweedy_ver02_11_2010_thunderpanda.ttf);
-	src: url(policies/Tweedy_ver02_22_2010_thunderpanda.ttf);
+	font-family: "Action";
+    src: url(policies/actionj.ttf);
 }
 /*body no margin*/
 body {
@@ -26,20 +25,20 @@ header {
 /*logo style*/
 .name_logo {
 	position: absolute;
-	top: 0;
+	top: 2vh;
 	left: 50vw;
-	margin-left: -20vw;
+	margin-left: -25vw;
 }
 #logo {
 	margin: 1vw;
 	margin-top: 0;
-	width: 30vw;
-	height: 30vh;
+	width: 50vw;
+	height: 50vh;
 }
 /*logo size policy*/
 #logo, h1 {
 	color: white;
-	font-family: "Tweedy";
+	font-family: "Action";
 	margin-top: 2vh;
 	font-size: 50px;
 	letter-spacing: 5px;
