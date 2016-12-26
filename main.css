@@ -1,5 +1,87 @@
-* {
+/*body no margin*/
+body {
 	margin: 0;
+}
+/*import my font*/
+@font-face {
+	/*font policy for nav*/
+    font-family: "Kranky";
+    src: url(policies/Kranky.ttf);
+}
+@font-face {
+	/*font policy for logo*/
+	font-family: "Action";
+    src: url(policies/actionj.ttf);
+}
+
+/*header style*/
+header {
+	background: black;
+	width: 100%;
+	height: 25vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+/*logo style*/
+.name_logo {
+	position: absolute;
+	top: 2vh;
+	left: 50vw;
+	margin-left: -25vw;
+}
+#logo {
+	margin: 1vw;
+	margin-top: 0;
+	width: 50vw;
+	height: 50vh;
+}
+/*logo size policy*/
+
+#logo, h1 {
+	color: white;
+	font-family: "Action";
+	margin-top: 2vh;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+/*nav style*/
+.top-nav {
+	margin-top: 15vh;
+	margin-left: 15vw;
+	padding: 2vh;
+}
+.nav-list {
+	list-style: none;
+}
+.nav-cell {
+	display: inline-block;
+	float: left;
+	margin-right: 2vw;
+	padding-right: 2vw;
+}
+/*link style*/
+.inner-cell {
+	color: white;
+	font-family: "Kranky";
+	text-transform: capitalize;
+	text-decoration: none; 
+	font-weight: bold;
+	white-space: nowrap;
+}
+a:hover {
+	text-decoration: none;
+}
+
+#hamburger-nav {
+	background: url(img/png/creative_lines_menu.png);
+	display: hidden;
+	width: 32px;
+	height: 32px;
 }
 .wallpaper {
 	background-image: url(img/png/path4.png);
@@ -33,3 +115,31 @@ h2, h3{
 	border-radius: 5%;
 }
 
+
+/*responsive nav*/
+@media only screen and (max-width: 640px) {
+	header{
+		position: absolute;
+	}
+	#hamburger-nav {
+		display: inline-block;
+	}
+	.top-nav .nav-list, .top-nav:active .nav-list {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: red;
+		right: 5vw;
+		top: 65px;
+		width: 35%/*convert to vw*/
+	}
+	.top-nav :hover .nav-list {
+		display: block;
+	}
+	.top-nav .nav-cell {
+		text-align: center;
+		width: 100%;
+		padding: 15px 0;
+		margin: 0;
+	}
+}	
