@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+.maj {
+	font-size: 3em;
+	color: violet;
+	border: 1px solid grey;
+}
