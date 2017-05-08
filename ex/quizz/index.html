@@ -14,16 +14,25 @@
       <div class="col-lg-12">
         <h1 class="text-center">Quizz template</h1>
       </div>
+      <!--the quizz-->
+      <div class="col-lg-6">
       <form id="quizz" name="quizz" action="index.html" method="post">
         <p>Quel est mon nom</p>
         <input id="textBox" type="text" name="question1">
+        <!--multi answer-->
         <p>The gender</p>
         <input type="radio" id="nc" name="question2" value="female">Female <br>
         <input type="radio" id="nc" name="question2" value="male">Male <br>
         <p>The city</p>
         <input type="radio" id="nc" name="question3" value="paris">Paris <br>
         <input type="radio" id="nc" name="question3" value="marseille">Marseille <br>
+        <input id="button" type="button" value="Valider">
       </form>
+    </div>
+      <!--End of the quizz-->
+      <div id="after_submit" class="col-lg-6">
+        <p id="number_correct">Bonne réponse</p>
+      </div>
     </div>
   </div>
   <script src="app.js" charset="utf-8"></script>
