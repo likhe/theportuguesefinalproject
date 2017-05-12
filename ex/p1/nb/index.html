@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Quizz verbes du premier groupe</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Questionnaire du premier groupe</h1>
+      </div>
+      <!--the quizz-->
+      <div class="col-lg-6">
+      <form id="quizz" name="quizz" action="index.html" method="post">
+        <p>Ecrire les nombres en lettres</p>
+        <span>40</span>
+        <input id="textBox" type="text" name="question1"><br>
+        <span>8</span>
+        <input id="textBox" type="text" name="question2"><br>
+        <span>15</span>
+        <input id="textBox" type="text" name="question3"><br>
+        <span>21</span>
+        <input id="textBox" type="text" name="question4"><br>
+        <span>75</span>
+        <input id="textBox" type="text" name="question5"><br>
+        <span>18</span>
+        <input id="textBox" type="text" name="question6"><br>
+        <span>66</span>
+        <input id="textBox" type="text" name="question7"><br>
+        <span>54</span>
+        <input id="textBox" type="text" name="question8"><br>
+        <span>89</span>
+        <input id="textBox" type="text" name="question9"><br>
+        <span>9</span>
+        <input id="textBox" type="text" name="question10"><br>
+        <input id="button" type="button" value="Valider">
+      </form>
+    </div>
+      <!--End of the quizz-->
+      <div id="after_submit" class="col-lg-6">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
