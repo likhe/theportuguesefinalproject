@@ -11,16 +11,20 @@ function valid() {
   let one = document.quizz.question1.value;
   let two = document.quizz.question2.value;
   let three = document.quizz.question3.value;
+  let four = document.quizz.question4.value;
   //the correct answers
   let correct = 0;
   //if the user have the good answers
-  if (one == "um") {
+  if (one == "um" || one == "UM" || one =="Um") {
     correct++;
   }
-  if (two == "a") {
+  if (two == "a" || two =="A") {
     correct++;
   }
-  if (three == "o") {
+  if (three == "o" || three =="O") {
+    correct++;
+  }
+  if(four == "uma" || one == "UMA" || one == "Uma") {
     correct++;
   }
   //display the number of correct answers
