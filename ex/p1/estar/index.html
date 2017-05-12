@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Quizz estar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Questionnaire estar</h1>
+      </div>
+      <!--the quizz-->
+      <div class="col-lg-6">
+      <form id="quizz" name="quizz" action="index.html" method="post">
+        <p>Completez les lignes avec les articles demandés</p>
+        <p class="ex">Ele</p>
+        <input id="textBox" type="text" name="question1">
+        <p class="ex">Nos</p>
+        <input id="textBox" type="text" name="question2">
+        <p class="ex">As senhoras</p>
+        <input id="textBox" type="text" name="question3">
+        <p class="ex">Eu</p>
+        <input id="textBox" type="text" name="question4">
+        <p class="ex">Tu</p>
+        <input id="textBox" type="text" name="question5">
+        <input id="button" type="button" value="Valider">
+      </form>
+    </div>
+      <!--End of the quizz-->
+      <div id="after_submit" class="col-lg-6">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
