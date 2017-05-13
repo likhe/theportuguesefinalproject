@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Quizz avoir en portugais</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Questionnaire avoir en portugais<</h1>
+      </div>
+      <!--the quizz-->
+      <div class="col-lg-6">
+        <form id="quizz" name="quizz" action="index.html" method="post">
+          <p>Choisir le bon verbe</p>
+          <span>____ uma cama no quarto.</span><br>
+          <span>Tem</span>
+          <input id="textBox" type="radio" name="question1" value="ter"><br>
+          <span>Hà</span>
+          <input id="textBox" type="radio" name="question1" value="haver"><br>
+          <span>____ uma camisa azul.</span><br>
+          <span>Tengo</span>
+          <input id="textBox" type="radio" name="question2" value="ter"><br>
+          <span>Hei</span>
+          <input id="textBox" type="radio" name="question2" value="haver"><br>
+          <span>Você ___ horas?</span><br>
+          <span>tem</span>
+          <input id="textBox" type="radio" name="question3" value="ter"><br>
+          <span>hà</span>
+          <input id="textBox" type="radio" name="question3" value="haver"><br>
+          <span>Os meus amigos ____ a comida.</span><br>
+          <span>tens</span>
+          <input id="textBox" type="radio" name="question4" value="ter"><br>
+          <span>hao</span>
+          <input id="textBox" type="radio" name="question4" value="haver"><br>
+          <span>No Brasil, ___ brasileiros.</span><br>
+          <span>tem</span>
+          <input id="textBox" type="radio" name="question5" value="ter"><br>
+          <span>hà</span>
+          <input id="textBox" type="radio" name="question5" value="haver"><br>
+          <input id="button" type="button" value="Valider">
+        </form>
+      </div>
+      <!--End of the quizz-->
+      <div id="after_submit" class="col-lg-6">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
