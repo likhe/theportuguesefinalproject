@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Quizz genre</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Questionnaire sur le genre</h1>
+      </div>
+      <!--the quizz-->
+      <div class="col-lg-6">
+      <form id="quizz" name="quizz" action="index.html" method="post">
+        <p>Accorder les mots au genre requis</p>
+        <span>Russo</span><input id="textBox" type="text" name="question1" placeholder="feminin"> <br>
+        <span>Mulher</span><input id="textBox" type="text" name="question2" placeholder="masculin"><br>
+        <span>Filho</span><input id="textBox" type="text" name="question3" placeholder="féminin"><br>
+        <span>Brasileiro</span><input id="textBox" type="text" name="question4" placeholder="masculin"><br>
+        <span>Alemao</span><input id="textBox" type="text" name="question5" placeholder="féminin"><br>
+        <span>Portuguesa</span><input id="textBox" type="text" name="question6" placeholder="masculin"><br>
+        <span>Gato</span><input id="textBox" type="text" name="question7" placeholder="féminin"><br>
+        <span>Atriz</span><input id="textBox" type="text" name="question8" placeholder="masculin"><br>
+        <span>Chinês</span><input id="textBox" type="text" name="question9" placeholder="féminin"><br>
+        <input id="button" type="button" value="Valider">
+      </form>
+    </div>
+      <!--End of the quizz-->
+      <div id="after_submit" class="col-lg-6">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -16,19 +16,19 @@ function valid() {
   //the correct answers
   let correct = 0;
   //if the user have the good answers
-  if (one == "abro") {
+  if (one == "posso") {
     correct++;
   }
-  if (two == "colhes") {
+  if (two == "sabes") {
     correct++;
   }
-  if (three == "recebem") {
+  if (three == "gastam") {
     correct++;
   }
   if(four == "bebemos") {
     correct++;
   }
-  if(five == "come") {
+  if(five == "quer") {
     correct++;
   }
   //display the number of correct answers

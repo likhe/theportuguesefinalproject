@@ -13,22 +13,38 @@ function valid() {
   let three = document.quizz.question3.value;
   let four = document.quizz.question4.value;
   let five = document.quizz.question5.value;
+  let six = document.quizz.question6.value;
+  let seven = document.quizz.question7.value;
+  let eight = document.quizz.question8.value;
+  let nine = document.quizz.question9.value;
   //the correct answers
   let correct = 0;
   //if the user have the good answers
-  if (one == "abro") {
+  if (one == "papagaios") {
     correct++;
   }
-  if (two == "colhes") {
+  if (two == "homens") {
     correct++;
   }
-  if (three == "recebem") {
+  if (three == "farois") {
     correct++;
   }
-  if(four == "bebemos") {
+  if(four == "dores") {
     correct++;
   }
-  if(five == "come") {
+  if(five == "alemaos") {
+    correct++;
+  }
+  if(six == "portuguesas") {
+    correct++;
+  }
+  if(seven == "gatas") {
+    correct++;
+  }
+  if(eight == "atores") {
+    correct++;
+  }
+  if(nine == "chineses") {
     correct++;
   }
   //display the number of correct answers
@@ -41,7 +57,7 @@ function valid() {
 
   if (correct < 1) {
     score = 2;
-  } else if (correct > 0 && correct < 3) {
+  } else if (correct > 0 && correct < 8) {
     score = 1;
   } else {
     score = 0;

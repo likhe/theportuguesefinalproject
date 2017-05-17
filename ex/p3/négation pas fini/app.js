@@ -13,22 +13,35 @@ function valid() {
   let three = document.quizz.question3.value;
   let four = document.quizz.question4.value;
   let five = document.quizz.question5.value;
+  let six = document.quizz.question6.value;
   //the correct answers
   let correct = 0;
   //if the user have the good answers
-  if (one == "abro") {
+  if (one == "a nossa") {
     correct++;
   }
-  if (two == "colhes") {
+  if (two == "os teus") {
     correct++;
   }
-  if (three == "recebem") {
+  if (three == "o seu") {
     correct++;
   }
-  if(four == "bebemos") {
+  if(four == "as minhas") {
     correct++;
   }
-  if(five == "come") {
+  if(five == "o vosso") {
+    correct++;
+  }
+  if(six == "a sua") {
+    correct++;
+  }
+  if(seven == "gata") {
+    correct++;
+  }
+  if(eight == "ator") {
+    correct++;
+  }
+  if(nine == "chinesa") {
     correct++;
   }
   //display the number of correct answers
