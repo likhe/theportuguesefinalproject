@@ -25,10 +25,10 @@ function valid() {
   if (three == "vai jogar") {
     correct++;
   }
-  if(four == "beber") {
+  if(four == "vamos beber") {
     correct++;
   }
-  if(five == "ir") {
+  if(five == "vou viajar") {
     correct++;
   }
   //display the number of correct answers
