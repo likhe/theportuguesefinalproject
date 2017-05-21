@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Quizz verbes irréguliers</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Questionnaire sur les verbes irréguliers</h1>
+      </div>
+      <!--the quizz-->
+      <div class="col-lg-6">
+      <form id="quizz" name="quizz" action="index.html" method="post">
+        <p>Conjuguer les verbes aux pronoms donnés</p>
+        <span>O Eduardo</span>
+        <input id="textBox" type="text" name="question1" placeholder="ir"><span>de metro à escola.</span> <br>
+        <span>Vocês</span>
+        <input id="textBox" type="text" name="question2" placeholder="fazer"><span>o pequeno almoço.</span><br>
+        <span>Eu</span>
+        <input id="textBox" type="text" name="question3" placeholder="pôr"><span>a caneta perto do caderno.</span><br>
+        <span>Tu</span>
+        <input id="textBox" type="text" name="question4" placeholder="trazer"><span>um novo carro hoje.</span><br>
+        <span>Nos</span>
+        <input id="textBox" type="text" name="question5" placeholder="ir"><span>comer no novo restaurante.</span><br>
+        <input id="button" type="button" value="Valider">
+      </form>
+    </div>
+      <!--End of the quizz-->
+      <div id="after_submit" class="col-lg-6">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
