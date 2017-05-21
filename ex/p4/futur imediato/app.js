@@ -16,19 +16,19 @@ function valid() {
   //the correct answers
   let correct = 0;
   //if the user have the good answers
-  if (one == "vai comer") {
+  if (one == "vou") {
     correct++;
   }
-  if (two == "vao fazer") {
+  if (two == "fazem") {
     correct++;
   }
-  if (three == "vai jogar") {
+  if (three == "ponho") {
     correct++;
   }
-  if(four == "beber") {
+  if(four == "trazes") {
     correct++;
   }
-  if(five == "ir") {
+  if(five == "vamos") {
     correct++;
   }
   //display the number of correct answers
