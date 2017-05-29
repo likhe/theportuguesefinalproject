@@ -21,14 +21,30 @@ h1 {
   font-size: 1.8em !important;
   white-space: pre-line;
   padding-bottom: 2em;
+  letter-spacing: 0.5em !important;
 }
 h1, .btn {
   color: #2F2F97 !important;
 }
-.btn:hover {
-  color: #ff1919 !important;
+a>.btn {
+  padding-right: 0.8em !important;
 
 }
+a {
+  text-decoration: none !important;
+}
+.btn:hover {
+  color: #ff1919 !important;
+  transition: color 0.2s ease;
+}
+p > .cours{
+font-size: 1.2em !important;
+}
+.cours:hover {
+  color: #ff1919 !important;
+  text-decoration: none;
+}
+
 li {
   padding: 0.8em;
 }
