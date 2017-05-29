@@ -6,7 +6,14 @@
   font-family: "Kranky";
   src:url("fonts/Kranky.ttf");
 }
-
+@font-face {
+  font-family: "actionj";
+  src:url("fonts/actionj.ttf");
+}
+body {
+  background-image: url("img/papier.jpg");
+  background-size: cover;
+}
 h1,h2,h3,h4,h5,h6, .navbar-brand {
   font-family: "Hand Drawns", serif !important;
 }
@@ -15,8 +22,22 @@ h1 {
   white-space: pre-line;
   padding-bottom: 2em;
 }
-p,a {
+h1, .btn {
+  color: #2F2F97 !important;
+}
+.btn:hover {
+  color: #ff1919 !important;
+
+}
+li {
+  padding: 0.8em;
+}
+p {
   font-family: "Kranky", serif !important;
   font-size: 1.5em;
+}
 
+a {
+  font-family: "actionj", serif !important;
+  font-size: 1.5em !important;
 }
