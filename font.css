@@ -10,18 +10,47 @@
   font-family: "actionj";
   src:url("fonts/actionj.ttf");
 }
+@font-face {
+  font-family: "Sketch";
+  src:url("fonts/HB Sketch Demo.otf");
+}
 body {
   background-image: url("img/papier.jpg");
   background-size: cover;
+  color: black !important;
 }
 h1,h2,h3,h4,h5,h6, .navbar-brand {
   font-family: "Hand Drawns", serif !important;
 }
+ul, li {
+  list-style: none;
+}
+.nb-course {
+  display: inline;
+}
+.maj, .nb-course {
+  padding: 0.8em;
+  padding-bottom: 0;
+}
+em {
+  font-family: "Sketch", serif !important;
+  font-style: normal !important;
+  font-size: 1.5em !important;
+  color: black !important;
+}
 h1 {
   font-size: 1.8em !important;
   white-space: pre-line;
+  margin: 2em;
   padding-bottom: 2em;
   letter-spacing: 0.5em !important;
+}
+h2 {
+    font-size: 1.3em !important;
+    white-space: pre-line;
+    margin: 4em !important;
+    padding: 2em !important;
+    letter-spacing: 0.5em !important;
 }
 h1, .btn {
   color: #2F2F97 !important;
@@ -49,13 +78,18 @@ li {
   padding: 0.8em;
 }
 p {
-  font-family: "Kranky", serif !important;
+  font-family: "Sketch", serif !important;
   font-size: 1.5em;
 }
 
-a {
-  font-family: "actionj", serif !important;
+a, .maj {
+  font-family: "Sketch", serif !important;
   font-size: 1.5em !important;
+}
+
+.maj {
+  font-size: 3em !important;
+  color:#003300 !important;
 }
 .social-link:hover > img {
   width: 5%;

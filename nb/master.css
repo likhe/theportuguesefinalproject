@@ -1,23 +1,27 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
-.maj {
-	font-size: 3em;
-	color: violet;
-	border: 1px solid grey;
-}
-
-#main {
-  width: 100%;
-  height: 70vh;
+.body {
+  overflow: hidden;
 }
 .padding-div {
-  margin-top: 15em;
+  margin-top: 10em;
+}
+#main {
+  width: 100vw;
+  height: 100%;
+}
+.intro {
+padding: 5em;
 }
 .padding-btn {
-  padding: 2em;
+  padding: 6em;
 }
-footer {
+.navbar-text {
+  padding-top: 0.8em;
+}
+/*footer {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -25,3 +29,4 @@ footer {
   height: 10vh;
   margin-bottom: 0 !important;
 }
+*/
