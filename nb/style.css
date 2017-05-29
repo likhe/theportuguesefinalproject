@@ -1,13 +1,18 @@
 #after_submit {
   visibility: hidden;
+  margin-top: 20em;
+  text-align: center;
 }
 .instruction {
   padding: 3em;
   padding-left: 0;
 }
 .nb {
+  margin-bottom: 6em !important;
   padding:1em;
+  padding-bottom: 0;
   margin-right: 6em;
+  font-size: 2em !important;
 
 }
 #textbox {
@@ -16,6 +21,7 @@
 input {
   width: 40%;
   height: 5vh;
-  padding: 1.5em;
   margin-bottom: 3em;
+  padding-top: 0;
+  margin-top: -1em;
 }

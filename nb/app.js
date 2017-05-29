@@ -55,7 +55,7 @@ function valid() {
   console.log(correct);
 
   //array of messages to affect it according to the number of correct answer
-  let sms = ["Bien joué!", "C'est bien", "Tu aurais pu faire mieux."]
+  let sms = ["Bien joué!", "C'est bien", "Tu aurais pu faire mieux"]
   //display the message according to the number of good answers
   let score;
 

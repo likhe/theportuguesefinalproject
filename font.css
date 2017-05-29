@@ -1,43 +1,55 @@
 @font-face {
   font-family: "Hand Drawns";
-  src:url("fonts/3D Hand Drawns.ttf");
+  src: url("fonts/3D Hand Drawns.ttf");
 }
+
 @font-face {
   font-family: "Kranky";
-  src:url("fonts/Kranky.ttf");
+  src: url("fonts/Kranky.ttf");
 }
+
 @font-face {
   font-family: "actionj";
-  src:url("fonts/actionj.ttf");
+  src: url("fonts/actionj.ttf");
 }
+
 @font-face {
   font-family: "Sketch";
-  src:url("fonts/HB Sketch Demo.otf");
+  src: url("fonts/HB Sketch Demo.otf");
+}
+*:focus {
+  outline: none !important;
 }
 body {
   background-image: url("img/papier.jpg");
   background-size: cover;
   color: black !important;
 }
-h1,h2,h3,h4,h5,h6, .navbar-brand {
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
   font-family: "Hand Drawns", serif !important;
 }
+
 ul, li {
   list-style: none;
 }
+
 .nb-course {
   display: inline;
 }
+
 .maj, .nb-course {
   padding: 0.8em;
   padding-bottom: 0;
 }
+
 em {
   font-family: "Sketch", serif !important;
   font-style: normal !important;
   font-size: 1.5em !important;
   color: black !important;
 }
+
 h1 {
   font-size: 1.8em !important;
   white-space: pre-line;
@@ -45,53 +57,85 @@ h1 {
   padding-bottom: 2em;
   letter-spacing: 0.5em !important;
 }
+
 h2 {
-    font-size: 1.3em !important;
-    white-space: pre-line;
-    margin: 4em !important;
-    padding: 2em !important;
-    letter-spacing: 0.5em !important;
+  font-size: 1.3em !important;
+  white-space: pre-line;
+  margin: 4em !important;
+  padding: 2em !important;
+  letter-spacing: 0.5em !important;
 }
+
 h1, .btn {
   color: #2F2F97 !important;
 }
+
 a>.btn {
   padding-right: 0.8em !important;
-
 }
+
 a {
   text-decoration: none !important;
+}
+.btn-link:nth-child(2) {
+  color: black !important;
 }
 .btn:hover {
   color: #ff1919 !important;
   transition: color 0.2s ease;
 }
-p > .cours{
-font-size: 1.2em !important;
+
+p>.cours {
+  font-size: 1.2em !important;
 }
+
 .cours:hover {
   color: #ff1919 !important;
   text-decoration: none;
 }
 
+input {
+  background-color: transparent !important;
+  border-bottom: 3px dotted gray;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+input:focus {
+  border-bottom: 3px dotted #2F2F97 !important;
+  outline: none;
+}
+
 li {
   padding: 0.8em;
 }
-p {
+
+p, .nb {
   font-family: "Sketch", serif !important;
   font-size: 1.5em;
 }
 
-a, .maj {
+a, .maj, .btn-green {
   font-family: "Sketch", serif !important;
   font-size: 1.5em !important;
 }
 
+.btn-green {
+  color: #003300 !important;
+  padding: 2em;
+}
+.btn-green:focus {
+  border-color: transparent;
+  border-bottom: 3px dotted transparent !important;
+}
+
 .maj {
   font-size: 3em !important;
-  color:#003300 !important;
+  color: #003300 !important;
 }
-.social-link:hover > img {
+
+.social-link:hover>img {
   width: 5%;
   height: 5%;
   transition: all 0.7s ease-in-out;
