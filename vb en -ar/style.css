@@ -1,0 +1,19 @@
+#after_submit {
+  visibility: hidden;
+}
+.instruction {
+  padding: 3em;
+  padding-left: 0;
+}
+.ex {
+  display: inline;
+  padding:1em;
+}
+#textbox {
+  display: block;
+}
+input {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 3em;
+}

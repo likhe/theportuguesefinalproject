@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Les articles</title>
+  <title>Quizz articles</title>
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="master.css">
+
 </head>
 
 <body>
@@ -31,42 +33,44 @@
   </nav>
   <!--end of navbar-->
   <div id="main" class="container">
-        <h1 class="text-center">Les articles définis et indéfinis</h1>
-    <div class="padding-div row">
+    <div class="row">
       <div class="col-lg-12">
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>Les articles</th>
-              <th>Déterminés</th>
-              <th>Indéterminés</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Singulier</td>
-              <td>o/a</td>
-              <td>os/as</td>
-            </tr>
-            <tr>
-              <td>Pluriel</td>
-              <td>um/uma</td>
-              <td>-</td>
-            </tr>
-          </tbody>
-        </table>
+        <h1 class="text-center">Questionnaire articles</h1>
+      </div>
+      <!--the quizz-->
+      <div class="col-lg-6">
+      <form id="quizz" name="quizz" action="index.html" method="post">
+        <p class="instruction">Completez les lignes avec les articles demandés</p>
+        <input id="textBox" type="text" name="question1" placeholder="Article indéfini masculin">
+        <p class="ex">livro</p><br>
+        <input id="textBox" type="text" name="question2" placeholder="Article défini féminin">
+        <p class="ex">caneta</p><br>
+        <input id="textBox" type="text" name="question3" placeholder="Article défini masculin">
+        <p class="ex">filho</p><br>
+        <input id="textBox" type="text" name="question4" placeholder="Article indéfini féminin">
+        <p class="ex">filha</p><br>
+        <input id="button" class="btn btn-success" type="button" value="Valider">
+      </form>
+    </div>
+      <!--End of the quizz-->
+      <div id="after_submit" class="col-lg-6">
+        <p id="number_correct"></p>
+        <p id="message"></p>
       </div>
     </div>
   </div>
-  <!--exo link -->
+  <!--cours link -->
   <section class="container">
     <div class="row">
       <div class="col-lg-12 text-center padding-btn">
-        <a class="btn btn-info" href="main.html">Commencez le test</a>
+        <a class="btn btn-info" href="main.html">Cours Suivant</a>
+        <a class="btn btn-link" href="main.html">Retour à la liste des cours</a>
+        <a class="btn btn-info" href="main.html">Cours suivant</a>
+
       </div>
     </div>
   </section>
-  <!--end of exo link-->
+  <!--end of cours link-->
 
   <!--footer-->
   <footer class="navbar fixed-bottom navbar-inverse">
@@ -81,6 +85,7 @@
   <!--end of the footer-->
   <script src="../jquery-3.2.1.min.js"></script>
   <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
 </body>
 
 </html>
