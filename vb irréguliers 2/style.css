@@ -9,10 +9,14 @@
   display: inline;
   padding-left: 1em;
   padding-top: 0.5em;
+  width: 200px;
+  padding:1em;
+  margin-right: 0.5em;
 }
 #textbox {
   display: block;
 }
 input {
   margin-bottom: 3em;
+  margin-right: 1em;
 }
