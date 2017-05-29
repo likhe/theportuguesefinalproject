@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Hand Drawns";
+  src:url("fonts/3D Hand Drawns.ttf");
+}
+@font-face {
+  font-family: "Kranky";
+  src:url("fonts/Kranky.ttf");
+}
+
+h1,h2,h3,h4,h5,h6, .navbar-brand {
+  font-family: "Hand Drawns", serif !important;
+}
+h1 {
+  font-size: 1.8em !important;
+  white-space: pre-line;
+  padding-bottom: 2em;
+}
+p,a {
+  font-family: "Kranky", serif !important;
+  font-size: 1.5em;
+
+}
