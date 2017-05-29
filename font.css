@@ -111,9 +111,13 @@ li {
   padding: 0.8em;
 }
 
-p, .nb {
+p, .nb, th, tr {
   font-family: "Sketch", serif !important;
   font-size: 1.5em;
+}
+th {
+  font-weight: lighter !important;
+  text-align: center !important;
 }
 
 a, .maj, .btn-green {

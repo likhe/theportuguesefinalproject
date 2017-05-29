@@ -1,5 +1,7 @@
 #after_submit {
   visibility: hidden;
+  margin-top: 20em;
+  text-align: center;
 }
 .instruction {
   padding: 3em;
