@@ -11,7 +11,7 @@ body {
 .padding-btn {
   padding: 2em;
 }
-footer {
+/*footer {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -19,3 +19,4 @@ footer {
   height: 10vh;
   margin-bottom: 0 !important;
 }
+*/

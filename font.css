@@ -111,7 +111,7 @@ li {
   padding: 0.8em;
 }
 
-p, .nb, th, tr {
+p, .nb, th, tr, .nat{
   font-family: "Sketch", serif !important;
   font-size: 1.5em;
 }
