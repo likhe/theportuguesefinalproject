@@ -1,18 +1,35 @@
 #after_submit {
   visibility: hidden;
+  margin-top: 20em;
+  text-align: center;
 }
+
 .instruction {
   padding: 3em;
   padding-left: 0;
 }
+
 .ex {
   display: inline;
   padding-left: 1em;
   padding-top: 0.5em;
 }
+
 #textbox {
   display: block;
 }
+
 input {
   margin-bottom: 3em;
+}
+
+@font-face {
+  font-family: "Sketch";
+  src: url("../fonts/HB Sketch Demo.otf");
+}
+
+span {
+  font-family: "Sketch", serif !important;
+  font-size: 1.5em;
+  margin-right: 1em;
 }

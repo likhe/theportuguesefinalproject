@@ -3,12 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Quizz phrases intégrrogatives</title>
+  <title>Quizz verbes irréguliers</title>
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="master.css">
   <link rel="stylesheet" href="../font.css">
-
 </head>
 
 <body>
@@ -37,32 +36,25 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="text-center">Les phrases</h1>
-        <h1 class="text-center">interrogatives</h1>
-            </div>
+        <h1 class="text-center">Les verbes</h1>
+        <h1 class="text-center">irreguliers 1/2</h1>
+
+      </div>
       <!--the quizz-->
       <div class="col-lg-6">
       <form id="quizz" name="quizz" action="index.html" method="post">
-        <p>Metter les pronoms qui correspondent aux personnes</p>
-        <input id="textBox" type="text" name="question1">
-        <span>se fica o Rossio ?</span>
-        <br>
-        <input id="textBox" type="text" name="question2">
-        <span>se chama a vizinha?</span>
-        <br>
-        <input id="textBox" type="text" name="question3">
-        <span>é a capital da Angola?</span>
-        <br>
-        <input id="textBox" type="text" name="question4">
-        <span>o Joao vai chegar?</span>
-        <br>
-        <input id="textBox" type="text" name="question5">
-        <span>é David Carreira?</span>
-        <br>
-        <input id="textBox" type="text" name="question6">
-        <span>o mundo é assim?</span>
-        <br>
-        <input id="button" class="btn btn-green" type="button" value="Valider">
+        <p class="instruction">Conjuguer les verbes aux pronoms donnés</p>
+        <span>Eu</span>
+        <input id="textBox" type="text" name="question1" placeholder="poder"><span>comer o lanche</span> <br>
+        <span>Tu</span>
+        <input id="textBox" type="text" name="question2" placeholder="saber"><span>falar em português</span><br>
+        <span>As senhoras</span>
+        <input id="textBox" type="text" name="question3" placeholder="dizer"><span>muitas coisas</span><br>
+        <span>Nos</span>
+        <input id="textBox" type="text" name="question4" placeholder="saber"><span>escolher o vinho</span><br>
+        <span>O gato</span>
+        <input id="textBox" type="text" name="question5" placeholder="querer"><span>comer o meu peixe</span><br>
+        <input id="button" type="button" class="btn btn-green" value="Valider">
       </form>
     </div>
       <!--End of the quizz-->
@@ -76,9 +68,9 @@
   <section class="container">
     <div class="row">
       <div class="col-lg-12 text-center padding-btn">
-        <a class="btn btn-link" href="index.html">Les phrases interrogatives</a>
+        <a class="btn btn-link" href="index.html">Les verbes irréguliers 1/2</a>
         <a class="btn btn-link" href="../cours.html">Tous les cours</a>
-        <a class="btn btn-link" href="../plural/index.html">Le pluriel</a>
+        <a class="btn btn-link" href="../vb irréguliers 2/index.html">Les verbes irréguliers 2/2</a>
 
       </div>
     </div>
@@ -86,7 +78,7 @@
   <!--end of cours link-->
 
   <!--footer-->
-  <footer class="navbar fixed-bottom navbar-inverse">
+  <footer class="navbar fixed-bottom">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 navbar-text fixed-bottom">
@@ -98,7 +90,6 @@
   <!--end of the footer-->
   <script src="../jquery-3.2.1.min.js"></script>
   <script src="../bootstrap/js/bootstrap.min.js"></script>
-  <script src="app.js" charset="utf-8"></script>
-</body>
+  <script src="app.js" charset="utf-8"></script></body>
 
 </html>
