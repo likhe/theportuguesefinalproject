@@ -5,6 +5,10 @@
   padding: 3em;
   padding-left: 0;
 }
+@font-face {
+  font-family: "Sketch";
+  src: url("../fonts/HB Sketch Demo.otf");
+}
 .ex {
   display: inline;
   padding-left: 1em;
@@ -12,6 +16,8 @@
   width: 200px;
   padding:1em;
   margin-right: 0.5em;
+  font-family: "Sketch", serif !important;
+  font-size: 1.5em;
 }
 #textbox {
   display: block;
