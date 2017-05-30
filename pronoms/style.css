@@ -1,5 +1,7 @@
 #after_submit {
   visibility: hidden;
+  margin-top: 20em;
+  text-align: center;
 }
 .instruction {
   padding: 3em;
@@ -15,4 +17,8 @@
 }
 input {
   margin-bottom: 3em;
+}
+span {
+  font-family: "Sketch", serif !important;
+  font-size: 1.5em;
 }

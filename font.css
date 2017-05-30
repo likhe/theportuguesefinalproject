@@ -65,7 +65,12 @@ h2 {
   padding: 2em !important;
   letter-spacing: 0.5em !important;
 }
-
+h3 {
+    font-size: 1.1em !important;
+    margin: 4em !important;
+    padding: 2em !important;
+    letter-spacing: 0.5em !important;
+}
 h1, .btn {
   color: #2F2F97 !important;
 }

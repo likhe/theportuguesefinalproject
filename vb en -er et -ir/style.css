@@ -1,5 +1,7 @@
 #after_submit {
   visibility: hidden;
+    margin-top: 20em;
+    text-align: center;
 }
 .instruction {
   padding: 3em;
@@ -9,6 +11,15 @@
   width: 200px;
   padding:1em;
   margin-right: 6em;
+
+}
+@font-face {
+  font-family: "Sketch";
+  src: url("../fonts/HB Sketch Demo.otf");
+}
+span {
+  font-family: "Sketch", serif !important;
+  font-size: 1.5em;
 
 }
 #textbox {
