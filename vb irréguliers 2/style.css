@@ -9,7 +9,7 @@
   font-family: "Sketch";
   src: url("../fonts/HB Sketch Demo.otf");
 }
-.ex {
+.ex, span {
   display: inline;
   padding-left: 1em;
   padding-top: 0.5em;
